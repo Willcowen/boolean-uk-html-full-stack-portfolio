@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+/* HOME STYLING */
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.9fr;
+    background-color: rgb(193, 222, 233)
+}
+
+.header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 200px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.main {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 100px 1fr;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.nav-bar ul {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    color: rgb(177, 174, 170)
+    
+}
+
+.my-name,
+.generic-header {
+    color: rgb(146, 139, 130) 
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #5f434d;
+    font-style: italic;
+  }
+  
+.nav-bar ul li a:hover {
+    color: rgb(240, 231, 231);
+  }
+  
+  /* Visited LINK */ 
+
+  /* nav a:visited {
+    text-decoration: none;
+    color: #5E0000;
+  } */
+  
+
+.container2 {
+    display: grid;
+    height: 100vh;
+    grid-auto-flow: rows;
+    background-color: rgb(193, 222, 233)
+}
+.generic-header {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    }
+
+.container2 p {
+    margin: 10px;
+    padding: 13px;
+}
+
+
+
+
+.sub-heading {
+    color: white;
+    padding: 17px;
+}
+
+.two ul li {
+    display: grid;
+    text-align: center;
+    border-color: black;
+    margin-top: 20px;
+
+}
+
+.technical-skills {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+.three {
+    display: grid;
+    height: 100vh;
+    /* grid-template-rows: 100px 1fr 50px; */
+    background-color: rgb(193, 222, 233)
+}
+
+.portfolio-main {
+    display: grid;
+    grid-template-columns:
+    repeat(3, 1fr); 
+    margin: 20px;
+    gap: 20px;
+    max-height: 200px;
+    
+}
+.portfolio-card {
+    display: grid;
+    grid-template-rows: 0.2fr 0.6fr 0.2fr;
+    text-align: center;
+    outline-style: solid;
+    gap: 5px;
+    
+
+}
+
+.portfolio-main h2 {
+    text-align: center;
+}
+
+.portfolio-card p {
+    padding: 10px;
+    font-size: 10px;
+    
+}
+
+.pfolio-example {
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 5px 2px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.pfolio-example:hover {
+    color: rgb(240, 231, 231);
+
+}
+
+
+
+
