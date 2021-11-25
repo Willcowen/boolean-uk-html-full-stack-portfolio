@@ -58,8 +58,8 @@
     color: #5f434d;
     font-style: italic;
   }
-  
-.nav-bar ul li a:hover {
+
+a:hover {
     color: rgb(240, 231, 231);
   }
   
@@ -160,6 +160,20 @@
     color: rgb(240, 231, 231);
 
 }
+
+.github-link {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .header {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+
+    }
+  }
+
 
 
 
